@@ -1,0 +1,19 @@
+PHP data objects(PDO)
+1)Consistent way to access the databases
+2)Connects with multiple database
+3)Object oriented.PHP 5.1 and later
+4)Data Access Layer
+5)Works with only mysqli
+
+Benefits
+1)Works with multiple db
+2)Security:Uses prepared statements.Precompiled sql statements which seperates data from sql syntax
+3)Usability.Has lot of helper functions which helps to access multiple db,error handling
+
+Main 3 classes are there
+1)PDO-Represents connection between PHP and DB
+2)PDOstatement-Prepared statements
+3)PDOexception-Represents errors by PDO
+
+Lets get started
+1)open php.ini.search for pdo.see that extension=php_pdo_mysql.dll is uncommented
